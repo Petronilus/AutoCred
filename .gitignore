@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.cache/
+
+# Bases e artefatos permanecem no disco; backup separado do histórico de código.
+data/
+models/
+backups/
+outputs/**
+!outputs/**/
+!outputs/**/*.md
+!outputs/**/*.json
+
+# Credenciais e configurações locais sensíveis.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
